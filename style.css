@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(18,18,19);
+    color: white;
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.userInfo {
+    border-bottom: 1px solid rgb(39, 39, 39);
+    padding: 100px 0 25px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userInfo .avatar{
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.userInfo .avatar img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.userInfo .name {
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding: 10px 0;
+}
+
+.userInfo .name a {
+    text-decoration: none;
+    color: white;
+}
+.userInfo .name a:hover {
+    text-decoration: underline;
+}
+
+.userInfo .popularity {
+    /* border: 1px solid white; */
+    font-size: 0.9em;
+    width: max-content;
+
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 10px;
+    color: rgb(183, 183, 183);
+}
+
+.userInfo .popularity #followers_number, #following_number {
+    font-weight: bolder;
+    color: white;
+}
+
+#followers a, #following a {
+    text-decoration: none;
+    color: rgb(183, 183, 183);
+}
+
+#followers a:hover, #following a:hover {
+    text-decoration: underline;
+}
+
+.userInfo #bio {
+    font-size: 0.9em;
+    color: rgb(184, 184, 184);
+    padding: 15px 0;
+}
+
+#search_bar {
+    /* border: 1px solid white; */
+    display: flex;
+    gap: 5px;
+    padding: 15px 5px;
+}
+
+#search_bar input {
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(64, 62, 62);
+    background-color: rgb(18,18,19);
+    padding: 10px 15px;
+    border-radius: 15px 0 0 15px;
+    color: rgb(146, 141, 141);
+    font-size: 1em;
+}
+
+#search_bar button {
+    background-color: rgb(18,18,19);
+    border: 1px solid rgb(64, 62, 62);
+    border-radius: 0 15px 15px 0;
+    width: 8em;
+    color: white;
+    font-size: 1em;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+#search_bar button:hover {
+    background-color: rgb(40, 40, 41);
+}
