@@ -112,3 +112,86 @@ body {
 #search_bar button:hover {
     background-color: rgb(40, 40, 41);
 }
+
+#site {
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+}
+
+#site img {
+    /* border: 1px solid white; */
+    width: 1.3em;
+}
+
+#site a {
+    text-decoration: underline;
+    color: rgb(78, 78, 78);
+    font-size: 0.87em;
+    transition: 150ms color;
+}
+
+#site:hover a {
+    color: white;
+}
+
+.repoInfo {
+    width: 90%;
+    max-width: 480px;
+    margin-top: 2em;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.repoCard {
+    border: 1px solid white;
+    max-width: 100%;
+    padding: 15px;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.repoCard #repoName{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0;
+    text-decoration: underline;
+    color: white;
+}
+
+.repoCard #repoDesc {
+    font-size: 0.75em;
+    color: rgb(156, 156, 156);
+    padding-bottom: 1.2em;
+    margin: 0;
+
+}
+
+.repoCard #repoLang {
+    font-size: 0.75em;
+    color: rgb(156, 156, 156);
+    margin: 0;
+
+}
+
+#footer {
+    /* border: 1px solid white; */
+    width: 100%;
+    position: fixed;
+    bottom: -3px;
+    backdrop-filter: blur(8px);
+    font-size: 1em;
+    padding: 1em;
+    padding-left: 3em;
+}
+
+#footer a {
+    text-decoration: underline;
+    color: white
+}

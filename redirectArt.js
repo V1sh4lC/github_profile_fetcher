@@ -1,0 +1,4 @@
+const img = {
+    "url": "data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27M5%2012V6C5%205.44772%205.44772%205%206%205H18C18.5523%205%2019%205.44772%2019%206V18C19%2018.5523%2018.5523%2019%2018%2019H12M8.11111%2012H12M12%2012V15.8889M12%2012L5%2019%27%20stroke=%27%23464455%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27/%3e%3c/svg%3e"
+}
+export default img
